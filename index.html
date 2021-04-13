@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blog Master</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Aaron Maiti</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#environment">Environment</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="page-header" id="travel">
+            <h2 class="text-capitalize">
+                places must visit
+            </h2>
+        </div>
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="elephant-falls-shillong-featured.jpg">
+                <h4 class="text-capitalize"><kbd>elephanta falls</kbd></h4>
+                <hr>
+                <h5 class="text-info text-left text-capitalize">visited in 2nd june 2019</h5>
+                <br>
+                <p class="text-muted text-left">Dramatic, multi-tiered waterfalls in picturesque surrounds, with an easy walking trail and stairs.</p>
+            </div>
+        </center>
+        <br><br>
+        <div class="page-header" id="movies">
+            <h2 class="text-capitalize">review on the movies</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame"> <span class="glyphicon glyphicon-film"></span> Avengers Age of Ultron<i class="fa fa-sort-desc"></i> </div>
+        <div id="avengers_endgame" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="avengers%20age%20of%20ultron.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Excellent film to culminate MCU ride
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>Movie Review</p>
+            </div>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+            <h2 class="text-capitalize ">news about environment</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>LEGO plans to find replacement material for bricks by 2030</h4> <img src="1200px-Lego_Color_Bricks.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In an effort to be more environmentally responsible, LEGO have said they aim to stop manufacturing bricks made of plastic resin and are considering other options, which could include hemp. According to Telegraph World, the company makes 60 billion blocks a year. While LEGO want to replace the harmful plastic used in their products, they also require the new material to meet the high standards that allow the blocks to work as they always have, especially with the effective “clicking” together is a key aspect of the iconic coloured block.</p>
+            </li>
+        </ul>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+            <h2 class="text-capitalize ">Books</h2>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h3>Bill Gates</h3>
+            <h4> <mark class="header_entrepreneur">
+                    <i>
+                        <sup><i class="fa fa-quote-left"></i></sup>
+                        Reading is still the main way that I both learn new things and test my understanding. <sup><i class="fa fa-quote-right"></i></sup> </i>
+                </mark> </h4>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize ">List of Books</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Knowledge_Encyclopaedia"> <img src="519EHxAEpTL._SX418_BO1,204,203,200_.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Knowledge Encyclopaedia</p>
+        </div>
+
+       <div class="modal fade" id="Knowledge_Encyclopaedia">
+           <div class="modal-dialog">
+               <div class="modal-content">
+                   <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                       <h4 class="modal-title">Knowledge Encyclopaedia</h4>
+                   </div>
+               <div class="modal-body">
+                   <img src="519EHxAEpTL._SX418_BO1,204,203,200_.jpg" class="img-responsive" class="img_modal">
+                   <p class="p_modal">Incredibly detailed cross-sections and cutaways reveal the inner workings of everything - from galaxies and stars to Earth and the human body. Look inside an Apollo spacecraft, a volcano, or the body of a Tyrannosaurus Rex. Find out what happened after the Big Bang, how trench warfare worked, and the science behind a fireworks display. This fully updated edition of Knowledge Encyclopedia is the perfect reference book for inquisitive minds of all ages, covering space, Earth, nature, human body, science, and history. Packed with fascinating statistics, maps, timelines, graphics, and superb photorealistic cross-sections, this family encyclopedia makes the most complex subjects easy to understand.<br>
+                   <a href="https://www.amazon.in/Knowledge-Encyclopedia-Updated-expanded-Dk/dp/0241287316/ref=sr_1_3?crid=1FHHB6LF6MG9R&dchild=1&keywords=knowledge+encyclopedia&qid=1618310616&sprefix=knowledge%2Caps%2C349&sr=8-3" target="_blank"><b>Best Buy Link</b></a></p>
+               </div>
+               </div>
+           </div>
+       </div>
+       
+        <section id="contact">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d823.2629633327863!2d87.30667061631927!3d22.31360096145103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDE4JzQ4LjQiTiA4N8KwMTgnMjUuMSJF!5e1!3m2!1sen!2sin!4v1618140609904!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <hr style="width: 100%;"> <img src="pluto.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Aaron Maiti</h3>
+            <div class="contact_1">
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaron.maiti2011@gmail.com"> <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>aaron.maiti2011@gmail.com</h3> </a>
+            </div>
+            <br>
+            <br>
+            <a href="https://studio.youtube.com/channel/UC9E_ZSaI67gWpKI0nBEjtUg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"> <i class="fa fa-youtube"></i>&nbsp;&nbsp;<h3>Aaron Maiti</h3></a>
+            <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <form> <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required> <br><br> <span>Comment : </span><input type="text" name="comment" required> <br><br> <input type="submit" value="submit" class="btn btn-success"> </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
